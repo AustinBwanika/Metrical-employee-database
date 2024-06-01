@@ -1,0 +1,93 @@
+/* App.css */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Uniform background color for the entire page */
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #e0f7fa; /* Ensure container also has the same background */
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.form-section {
+    /* background-color: #ffffff; */
+    /* background-color: #e0f7fa;  */
+    padding: 20px;
+    border-radius: 0px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    width: 45%;
+    text-align: center;
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+    width: calc(100% - 22px);
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    font-size: medium;
+    color: white;
+    border: none;
+    cursor: pointer;
+    size: 100px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    size: 100px;
+}
+
+.table-container {
+    background-color: #ffffff; /* White background for the table container */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.image{
+    position:absolute;
+    top:10px;
+    left: 10px;
+    width: 100px;
+    height:100px;
+}
+
