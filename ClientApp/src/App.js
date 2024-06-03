@@ -54,8 +54,8 @@ export default function App() {
                 body: JSON.stringify({ name: updateName, value: parseInt(updateValue) })
             });
             fetchEmployees(); // Refresh the list 
-            setName(''); // Clear the update name input field
-            setValue(''); // Clear the update value input field
+            setUpdateName(''); // Clear the update name input field
+            setUpdateValue(''); // Clear the update value input field
         } catch (error) {
             console.error("Error updating employee:", error);
         }

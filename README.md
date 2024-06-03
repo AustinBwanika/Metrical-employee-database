@@ -38,3 +38,8 @@ This is an interview test that was developed to add and update employees in a da
     dotnet run
     ```
 
+## Changes I made to the project 
+
+-**App.js**: Edited the file to get the functionality of add and editing the employee database 
+-**App.css**: Created a css file to design the outlook of the website. 
+-**Startup.cs**: Edited the file to allow for data to be permanently saved in the database and edited out the automatic reset of the database when starting and stopping the program.
